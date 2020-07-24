@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 2px solid black;
+            height: 20px;
+            background-color: cornsilk;
+            font-size: 30px;
+            padding-left: 10px;
+        }
+        table{
+            table-layout: fixed;
+            width: 280px;
+            height: 300px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <h2 id="title"></h2>
+    <table >
+        <tr>
+            <td class="mark">X</td>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+        </tr>
+        <tr>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+            <td class="mark">X</td>
+        </tr>
+        <tr>
+            <td class="mark">X</td>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+        </tr>
+    </table>
+    <div class="player-namme">
+        <h2>Player 1 name : <span id="first"></span></h2>
+        <h2>Player 2 name : <span id="second"></span></h2>
+    </div>
+</div>
+    <script src="odinWay.js"></script>
+</body>
+</html>

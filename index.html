@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 1px solid black;
+            width: 15px;
+            height: 15px;
+        }
+        table{
+            table-layout: auto;
+        }
+    </style>
+</head>
+<body>
+<!-- <body onload="createPlayer()"> -->
+<div class="container">
+    <h1>Tic Tac Toe</h1>
+    <h2 id="title"></h2>
+    <div class="gameboard">
+    <table >
+        <tr>
+            <td class="mark">X</td>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+        </tr>
+        <tr>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+            <td class="mark">X</td>
+        </tr>
+        <tr>
+            <td class="mark">X</td>
+            <td class="mark">O</td>
+            <td class="mark">X</td>
+        </tr>
+    </table>
+    </div>
+    <div>
+        <button class="btn" onclick="restart()">Restart</button>
+    </div>
+    <div class="players">
+        <h3>Player 1: <span id="first"></span></h3>
+        <h3>Player 2: <span id="second"></span></h3>
+    </div>
+</div>
+<script src="vsComp.js"></script>
+</body>
+</html>
